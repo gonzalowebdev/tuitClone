@@ -1,0 +1,331 @@
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.login-left {
+    background-image: url("../images/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.05);
+    opacity: 0.9;
+    height: 600px;
+    border-radius: 3px;
+}
+
+/*
+###############
+HOME PAGE
+###############
+*/
+/* GLOBALS */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #242424;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.imgFit{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+small{
+    font-size: 11px;
+}
+.navTeamsIndex{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.teamsSites{
+    display: flex;
+    height: 100%;
+}
+.teamsSites>a{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teamsSites>a>img{
+    width: 35px;
+    height: 35px;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+.navHeader1{
+    height: 60px;
+    width: 100%;
+    background: #37003c;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.navHeader1-items, .navHeader1-user, .navHeader2-items, .navHeader2-options{
+    display: flex;
+    height: 100%;
+}
+.btnLink{
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navHeader2{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #8d8d8d;
+}
+
+/*
+#################
+main wrapper
+###############
+*/
+.container{
+    max-width: 1376px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+.shadow{
+    box-shadow: 0 1px 12px 0 rgb(0 0 0 / 25%);
+}
+.destacada{
+    background: linear-gradient(270deg,#ff2882 30%,#ff6900) #ff6900;
+    color: #fff;
+}
+.destacada2{
+    width: 100%;
+}
+.destacada3{
+    padding: 40px 0;
+}
+.wrappDestacada{
+    width: 100%;
+}
+.wrappDestacada1{
+    display: flex;
+}
+.wrappDestacada1Img{
+    flex-basis: 50%;
+    width: auto;
+    margin-right: 4px;
+    min-height: 400px;
+    overflow: hidden;
+    background-color: #37003c;
+}
+.wrappDestacada1Text{
+    flex-basis: 50%;
+    width: auto;
+    background:rgba(55,0,60,.9);
+}
+.wrappDestacada1Fonts{
+    padding: 24px;
+}
+.wrappDestacada1Fonts>h1{
+    font-size: 35px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+.wrappDestacada1Fonts>p, .destacadaRelatedLink>span{
+    color: hsla(0,0%,100%,.8);
+}
+.destacadaRelatedLink>span{
+    font-size: 13px;
+}
+.wrappDestacada2{
+    display: flex;
+    margin-top: 16px;
+}
+.wrappDestacada2-1, .wrappDestacada2-2{
+    width: 50%;
+    display: flex;
+}
+.wrappDestacada2-1{
+    margin-right: 4px;
+}
+.wrappDestacada2Img{
+    min-height: 64px;
+    width: 90px;
+    min-width: 90px;
+    background-color: #37003c;
+    flex-basis: auto;
+}
+.wrappDestacada2Text{
+    height: 100%;
+    width: 100%;
+    margin-left: 4px;
+    background-color: #37003c;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.wrappDestacada2Fonts{
+    padding: 12px 20px 16px;
+}
+.wrappDestacada2Fonts>h4{
+    margin: 6px 0 0 0;
+}
+.wrappDestacada2Fonts>small, .wrappDestacada1Fonts>small, .cardBody>small{
+    font-size: 11px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(212, 9, 9);
+}
+.destacadaRelated{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.destacadaRelatedImg{
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #fff;
+    margin-right: 10px;
+}
+.nav{
+    width: 270px;
+    height: auto;
+    padding: 50px 40px 10px 10px ;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    box-sizing:content-box;
+    color: #242424;
+}
+.navWrapp{
+    width: 270px;
+    height: 250px;
+    background-color: #fff;
+    border-top: 4px solid #37003c;
+}
+.navWrappHeader{
+    padding: 23px 10px 20px 10px;
+}
+.navWrappHeader2{
+    text-align: center;
+}
+.calendarWrapp{
+    text-align: center;
+}
+.addFixtures{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 15%);
+    padding: 10px 0;
+}
+.container2{
+    margin-left: 320px;
+    height: auto;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.container2>section>h2{
+    margin-top: 0px;
+}
+.communitieStories{
+    width: 100%;
+    padding-bottom: 30px;
+    display: flex;
+}
+.card>.cardImg>img{
+    border-bottom: 5px solid #ff518b;
+}
+.card>.cardBody{
+    padding: 0 10px 10px;
+}
+.cardBody>h3{
+    margin: 5px 0;
+    font-weight: 300;
+    color: #7a7a7a;
+}
+.card>.cardRelated{
+    padding: 0 10px 10px;
+}
+.card>.cardRelated>small{
+    color: #7a7a7a;
+    font-style: italic;
+}
+.communitieStories>.card{
+    width: calc(33,33% - 6px);
+    margin-right:6px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 15%);
+}
+.middleSection{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+.middleSectionMain{
+    width: calc(50% - 6px);
+    margin-right: 6px;
+    background-image: linear-gradient(90deg,#37003c,#ff2882);
+}
+.middleSectionMain>.MSimg{
+    width: 100%;
+    overflow: hidden;
+}
+.middleSectionMainBody{
+    min-height: 20px;
+    padding: 20px 20px 30px;
+    color: #fff;
+}
+.middleSectionMainBody>h1{
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.middleSectionMainBody>p{
+    color:hsla(0,0%,100%,.8);
+    margin: 0;
+}
+.middleSectionAside{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-flow: wrap;
+}
+.middleSectionAside>.card{
+    width: calc(50% - 6px);
+    height: auto;
+    margin-right: 6px;
+}
+.latestNews{
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+.latestNews>.card{
+    width: calc(33,33% - 6px);
+    margin-right: 6px;
+}
